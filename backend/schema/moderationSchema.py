@@ -16,8 +16,6 @@ class ModerationResponse(BaseModel):
     llm_response: str
 
 
-
-
 class Summary(BaseModel):
     total_request:int 
     by_classification: Dict[str, int]
